@@ -1,0 +1,82 @@
+@font-face {
+    font-family: OpenSans-Regular;
+    src: url("../Font/OpenSans-Regular.ttf");
+}
+
+* {
+    color: black;
+}
+
+img {
+    width: 300px;
+    display: block;
+    margin: 0 auto;
+}
+body {
+    background-color: gainsboro;
+    background: url("../Images/tapeta.jpg");
+}
+
+#page {
+    width: 300px;
+    margin: 0 auto;
+    background-color: yellowgreen;
+    padding: 6px;
+    font-family: OpenSans-Regular;
+    font-size: smaller;
+}
+
+#page div:first-of-type {
+    font-style: italic;
+    color: darkred;
+    background-color: white;
+}
+
+h1 {
+    margin: 12px 0 12px 0;
+}
+.content p {
+    margin-bottom: 20px;
+}
+
+.social {
+    margin: 30px 0 30px 0;
+    border-bottom: 1px solid gray;
+    border-top: 1px solid gray;
+    padding: 12px;
+}
+
+a {
+    color: blue;
+    text-decoration: underline;
+    font-size: 22px;
+}
+
+a:hover {
+    color: gray;
+    text-decoration: underline;
+}
+
+.content p:nth-child(2) {
+    color: darkviolet;
+}
+
+.menu {
+    list-style-type:none;
+    background-color: #292929;
+    color: white;
+    padding: 6px;
+    font-size: 20px;
+}
+
+.menu li {
+    display: inline;
+    padding: 6px;
+    color: white;
+}
+
+.content p {
+    margin-bottom: 20px;
+}
+
+
